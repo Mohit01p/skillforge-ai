@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --surface: 233 241 250;
+  --card: 255 255 255;
+  --raised: 221 233 246;
+  --border: 207 221 237;
+  --brand: 0 171 228;
+  --brand-hover: 0 148 198;
+  --accent: 217 119 6;
+  --muted: 90 106 125;
+  --ink: 18 38 58;
+}
+
+.dark {
+  color-scheme: dark;
+  --surface: 35 43 43;
+  --card: 44 53 53;
+  --raised: 55 64 64;
+  --border: 83 75 79;
+  --brand: 0 171 228;
+  --brand-hover: 0 148 198;
+  --accent: 224 164 88;
+  --muted: 160 165 165;
+  --ink: 211 211 211;
+}
+
+body {
+  @apply bg-surface text-ink font-sans antialiased;
+}
