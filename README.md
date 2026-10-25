@@ -4,6 +4,11 @@ An AI-powered placement prep platform for developer students. Roadmaps, AI tools
 
 **Live demo:** https://skillforge-ai-zeta.vercel.app
 
+![Log_in page](screenshots/login_page.png)
+![Dashboard](screenshots/dashboard.png)
+![Roadmap](screenshots/roadmap.png)
+![AI_Tools](screenshots/AI_tools.png)
+
 ## Features
 
 - **Auth and onboarding:** JWT login, a 3-step wizard for career goal and current skills
